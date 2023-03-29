@@ -11,9 +11,10 @@ export const Header = ({ onChangeFilter, startSearch, search }) => {
         // props.onChangeFilter(event.target.value)
 
     }
+    const h1Style = {color: "#ffff"}
     return (
-        <div>
-            <h1>Search for Books</h1>
+        <div className="header">
+            <h1 style={h1Style}>Search for Books</h1>
             <div>
                 <input
                     value={value}
